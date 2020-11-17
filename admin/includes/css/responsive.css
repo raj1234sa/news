@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+    .table-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #filterForm {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #filterForm {
+        padding: 0px 10px;
+    }
+
+    #dataTable_paginate {
+        padding-bottom: 0.755em;
+    }
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.no-gutters > .col, .no-gutters > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0
+}

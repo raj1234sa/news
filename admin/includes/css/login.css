@@ -1,0 +1,9 @@
+.login-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.forgot-password-link i {
+    margin-right: 8px;
+}
